@@ -1,4 +1,4 @@
-name: Deploy GitHub Pages Deck
+name: Deploy GitHub Pages Site
 
 on:
   push:
@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   deploy:
-    name: Deploy deck
+    name: Deploy site
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -28,11 +28,15 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
-      - name: Verify deck directory
+      - name: Verify Pages site
         shell: bash
         run: |
           test -f docs/index.html
           test -f docs/deck-stage.js
+          test -f docs/report/index.html
+          test -f docs/report.html
+          test -f docs/report.css
+          grep -q 'window.print()' docs/report/index.html
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

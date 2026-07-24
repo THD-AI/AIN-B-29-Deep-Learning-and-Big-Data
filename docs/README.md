@@ -1,11 +1,10 @@
-# CheXVision GitHub Pages Deck
+# CheXVision GitHub Pages Site
 
 This directory is the static artifact uploaded to GitHub Pages.
 
-The current presentation bundle lives here:
+The published routes are:
 
-- `index.html`
-- `deck-stage.js`
-- `assets/`
+- `/chexvision/` — presentation deck (`index.html`)
+- `/chexvision/report/` — project report (`report/index.html`)
 
-GitHub Pages serves `index.html` as the site root.
+The legacy `/chexvision/report.html` URL redirects to the canonical report route.
