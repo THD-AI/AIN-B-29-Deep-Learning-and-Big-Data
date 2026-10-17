@@ -14,7 +14,20 @@ python_version: "3.10"
   <img src="https://raw.githubusercontent.com/arudaev/chexvision/main/.github/banner.png" alt="CheXVision – a hand-drawn banner: a laptop showing the training pipeline beside a chest X-ray on a lightbox" width="100%">
 </p>
 
-# CheXVision
+# Deep Learning/Big Data – CheXVision
+
+## Course context
+
+B.Sc. Artificial Intelligence (AIN-B), Deggendorf Institute of Technology.
+
+| Module code | Course | Scheduled semester |
+| --- | --- | --- |
+| AIN-B-29 | Deep Learning/Big Data | 6 |
+
+Educational chest X-ray research; not for clinical use.
+
+Module details follow the [official AIN-B handbook](https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch-ain-b-ws25-26.pdf) (7 September 2026 edition). Semester refers to the curriculum, not the author's completion date. See the [THD AI course map](https://github.com/THD-AI/.github/blob/main/COURSES.md) for sources and related projects. This community fork preserves the original authors, licence, and project branding.
+
 
 **Large-Scale Chest X-Ray Pathology Detection** – Deep Learning & Big Data Project
 
